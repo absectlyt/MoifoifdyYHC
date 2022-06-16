@@ -16,10 +16,6 @@ on:
         type: choice
         description: What kind of pre-release is this?
         default: beta
-        options:
-          - alpha
-          - beta
-          - rc
 
 jobs:
   build-ionic:
